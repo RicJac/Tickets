@@ -1,0 +1,132 @@
+<<<<<<< HEAD
+
+* {margin=0
+   padding=0
+   posiion:relative
+  }
+
+body{
+    background-color: aquamarine;
+    padding-right: 0px;
+}
+
+/* color de link en nav */
+.colorverde{
+    color: rgba(47, 255, 75, 0.514) !important;
+  }
+
+#brillo {
+    filter: brightness(60%);
+}
+
+/* padding texto de carousel     */
+.texto {
+    padding: 25.0% 0.0%;
+    margin: 0%;
+  }
+
+ .botontransparente {
+        background: none;    
+    }
+
+ .mai{
+    margin=80 !important;
+}
+
+.brillito {
+    filter: brightness(70%);
+}
+ .jumbotron {
+    background: none;             /* Transparent background */
+    padding: 1.0% 5.0%;              /* ubicacion texto */
+}
+
+ .col-derecha {
+        background-color: #353a40;
+        color: white;
+        font-size: small;
+ }
+
+ .foot {
+    color: rgb(254, 255, 254) ;
+    text-decoration: none ;
+  }
+
+ .footer {
+        background-image: linear-gradient(to right, #15232b, #1f71a0);
+        height: 80px;   
+        text-align: center;
+        color: whitesmoke;
+        align-items: center ;
+        vertical-align: middle !important;
+        font-size: small;
+    }
+
+    
+=======
+
+* {margin=0
+   padding=0
+   posiion:relative
+  }
+
+body{
+    background-color: aquamarine;
+    padding-right: 0px;
+}
+
+/* color de link en nav */
+.colorverde{
+    color: rgba(47, 255, 75, 0.514) !important;
+  }
+
+#brillo {
+    filter: brightness(60%);
+}
+
+/* padding texto de carousel     */
+.texto {
+    padding: 25.0% 0.0%;
+    margin: 0%;
+  }
+
+ .botontransparente {
+        background: none;    
+    }
+
+ .mai{
+    margin=80 !important;
+}
+
+.brillito {
+    filter: brightness(70%);
+}
+ .jumbotron {
+    background: none;             /* Transparent background */
+    padding: 1.0% 5.0%;              /* ubicacion texto */
+}
+
+ .col-derecha {
+        background-color: #353a40;
+        color: white;
+        font-size: small;
+ }
+
+ .foot {
+    color: rgb(254, 255, 254) ;
+    text-decoration: none ;
+  }
+
+ .footer {
+        background-image: linear-gradient(to right, #15232b, #1f71a0);
+        height: 80px;   
+        text-align: center;
+        color: whitesmoke;
+        align-items: center ;
+        vertical-align: middle !important;
+        font-size: small;
+    }
+
+    
+>>>>>>> 3fe54f1dd46a78b908e8cea8b84fc1e2b29fe926
+    

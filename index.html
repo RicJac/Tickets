@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <!--link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    
+    <!--  bootstrap CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"-->
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-white">
+    <header>
+             <!-- Menu de navegacion -->
+        
+      <nav class="px-5 navbar navbar-expand-lg navbar-dark bg-dark"> 
+         
+            <img src="./img/codoacodo.png" class="m-20" height="60" alt="codoacodo">
+            <a class="navbar-brand" href="#">Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+         
+          <div class="pb-1 collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">  
+              <div class="navbar-nav" >
+                <a class="nav-link active" href="#">La conferencia <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Los oradores</a>
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link disabled">Conviertete en orador</a>
+                <a class="nav-link colorverde" href="./ticket.html" role="button">Comprar tickets </a> 
+              </div>               
+          </div>
+      </nav>
+
+    </header>
+
+    <main>      
+      
+      <article>
+              <!-- Carrusel -->
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img src="./img/ba1.jpg" class="d-block w-100" height="800" id="brillo" alt="ba1">
+                      <div class="carousel-caption d-none d-md-block texto">
+                        <h4 class="d-flex justify-content-end"> 
+                          Conf Bs As
+                         </h4>                         
+                         <h6 class= "d-flex justify-content-end">
+                          Bs As llega por primera vez a Argentina. Un evento para compartir con 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end"> 
+                           nuestra comunidad el conocimiento y experiencia de los expertos que                                                 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           están creando el futuro de internet. Ven a conocer a miembros del
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           nivel que tenemos para ti. Te esperamos!
+                         </h6>
+                        <div class="d-flex justify-content-end">
+                        <a class="btn btn-secondary btn-transparent botontransparente" href="#" role="button">Quiero ser orador</a>
+                        <a class="btn btn-primary btn-success" href="./ticket.html" role="button">Comprar tickets</a>
+                      </div>
+                        
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                      <img src="./img/ba2.jpg" class="d-block w-100" height="800" id="brillo" alt="ba2">
+                      <div class="carousel-caption d-none d-md-block texto">
+                        <h4 class="d-flex justify-content-end"> 
+                          Conf Bs As
+                         </h4>                         
+                         <h6 class= "d-flex justify-content-end">
+                          Bs As llega por primera vez a Argentina. Un evento para compartir con 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end"> 
+                           nuestra comunidad el conocimiento y experiencia de los expertos que                                                 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           están creando el futuro de internet. Ven a conocer a miembros del
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           nivel que tenemos para ti. Te esperamos!
+                         </h6>
+                        <div class="d-flex justify-content-end">
+                        <a class="btn btn-secondary btn-transparent botontransparente" href="#" role="button">Quiero ser orador</a>
+                        <a class="btn btn-primary btn-success" href="./ticket.html" role="button">Comprar tickets</a>
+                      </div>
+                    </div>
+                    </div>
+                   
+                    <div class="carousel-item">
+                      <img src="./img/ba3.jpg" class="d-block w-100" height="800" id="brillo" alt="ba3">
+                     <div class="carousel-caption d-none d-md-block texto">
+                        <h4 class="d-flex justify-content-end"> 
+                          Conf Bs As
+                         </h4>                         
+                         <h6 class= "d-flex justify-content-end">
+                          Bs As llega por primera vez a Argentina. Un evento para compartir con 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end"> 
+                           nuestra comunidad el conocimiento y experiencia de los expertos que                                                 
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           están creando el futuro de internet. Ven a conocer a miembros del
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                         </h6>
+                         <h6 class= "d-flex justify-content-end">                           
+                           nivel que tenemos para ti. Te esperamos!
+                         </h6>
+                        <div class="d-flex justify-content-end">
+                        <a class="btn btn-secondary btn-transparent botontransparente" href="#" role="button">Quiero ser orador</a>
+                        <a class="btn btn-primary btn-success" href="./ticket.html" role="button">Comprar tickets</a>
+                      </div>
+                    </div>
+                     </div>
+                      <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                       </button>
+                       <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                   </div>
+               
+              
+     </article>
+
+     <!-- TITULO CONOCE A LOS ORADORES --> 
+     
+
+
+          <div class="container text-center">
+           <p>
+            </br>
+              CONOCE A LOS
+           </p>
+             <h2> ORADORES                    
+            </h2>           
+            </div>     
+          </div>
+
+                  <!-- Card Bootstrap sin JS -->
+            <article class= "container-flex"> 
+             <div class="container d-flex"> 
+                <div class="card" style="width: 18rem;">
+                  <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                        <span class="badge badge-warning">JavaScript</span>
+                        <span class="badge badge-info">React</span>
+                        <h2>Steve Jobs</h2>
+                        <p class="card-text">Muchachos, ahora nos volvimo' a ilusionar ya ganamos la tercera, ya somos campeón mundial.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span class="badge badge-warning">JavaScript</span>
+                      <span class="badge badge-info">React</span>  
+                      <h2>Bill Gates</h2>
+                       
+                        <p class="card-text">Muchachos, ahora nos volvimo a ilusionar ya ganamos la tercera, ya somos campeón mundial.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="Cardano">
+                    <div class="card-body">
+                        <span class="badge badge-secondary">Negocios</span>
+                        <span class="badge badge-danger">Startups</span>
+                        <h2>Ada Lovelace</h2>
+                        <p class="card-text">Muchachos, ahora nos volvimo' a ilusionar ya ganamos la tercera, ya somos campeón mundial.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="./img/clemente.jpg" class="card-img-top" id="brillo" alt="Clemente">
+                  <div class="card-body">
+                      <span class="badge badge-secondary">Negocios</span>
+                      <span class="badge badge-danger">Startups</span>
+                      <h4>Clemente Rodríguez</h4>
+                      <p class="card-text">Muchachos, ahora nos volvimo' a ilusionar ya ganamos la tercera, ya somos campeón mundial.</p>
+                  </div>
+              </div>
+            </div>
+              </div>
+              
+            </article>
+ 
+            <!-- Seccion Punta indio 2 Columnas-->
+        <DIV class="invisible">
+                   <p>.           
+          </p>
+        </DIV>
+         <div class="container-fluid">
+            <div class="table-responsive">
+                <div class="table">
+                  <div class="row no-gutters">
+                    <div class="col-sm">
+                      <img src="./img/puntaindio.jpg" class="d-block w-100" alt="buenos aires">
+                    </div>
+                  <div class="col-sm col-derecha">
+                    <div class="jumbotron" class="d-block w-100">
+                      <h4 class="display-10">Bs As Octubre
+                      </h4>
+                       <p>Buenos Aires es la provincia y localidad más grande de Argentina. Punta Indio es una Playa sobre el Río de la Plata camino a la Costa Atlántica de la Provincia de Buenos Aires y está ubicada a solo 170 kilómetros de la Ciudad Autónoma de Buenos Aires.
+                        En el principio Dios Creo los cielos y la tierra y lorem ipsum verde dolorem                      
+                       </p>
+                      <hr class="my-4">                  
+                      <a class="btn btn-primary btn-transparent botontransparente" href="#" role="button">Conocé más</a>                
+                    </div>
+                  </div>
+            </div>
+         </div>
+
+            <!-- Seccion FINAL -->
+            
+          <div class= "container text-center">
+            <p>
+             CONVIÉRTETE EN UN
+            </p>
+            <h2> ORADOR                    
+            </h2>           
+            <p>Anótate como orador para una charla Ignite. Cuéntanos de qué quieres hablar!                
+            </p>                           
+
+            <!-- Form Bootstrap -->
+
+                <div class="container-justify-content-center">
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <input type="text" class="form-control" id="validationCustom02" value="Apellido" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                   </div>
+                   <div class="form-row">
+                      <div class="col-md-12 mb-3">                                              
+                      <input type="text" class="form-control" id="validationCustom03" value="Sobre qué quieres hablar?" required
+                        style="height: 80px"></textarea>
+
+                      <div class="invalid-feedback">
+                          Please provide a valid city.
+                          
+                      </div>
+                      Recuerda incluir un titulo para tu charla
+                      <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-8 mb-3"></div>
+                      <button class="btn btn-success boton-largo col-md-12 mb-3" type="submit">Enviar</button>
+                      </div>
+                    </div>  
+                  </form>
+                </div>
+                                    
+                  <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                  </script>
+                   
+      </main>
+      <div>                
+         <p>
+        </br>               
+       </p>    
+       </div>  
+     <footer>
+        <!-- Navbar Footer -->
+
+       <div class="footer">
+         <div class="container">
+           <div class="row footer">
+               <div class="col"><a class="foot" href="#">Preguntas </br> frecuentes</a></div>
+               <div class="col"><a class="foot" href="#">Contáctanos</a></div>
+               <div class="col"><a class="foot" href="#">Prensa</a></div>
+               <div class="col"><a class="foot" href="#">Conferencias</a></div>
+               <div class="col"><a class="foot" href="#">Términos y condiciones</a></div>
+               <div class="col"><a class="foot" href="#">Privacidad</a></div>
+               <div class="col"><a class="foot" href="#">Estudiantes</a></div>
+            </div>
+        </div>
+      </div>
+        
+    </footer>
+
+    <script src="./bootstrap-4.6-2-dist/js/bootstrap.min.js"></script>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+</body>
